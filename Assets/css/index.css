@@ -1,0 +1,176 @@
+/* header */
+        .batman-entete{
+                background-image: url(../Illustrations/Home/Bathome1.png);
+                background-size: cover;
+        }
+
+        header{
+                height: 700px;
+        }
+
+        nav{
+                align-items: center;
+                border-bottom: 2px solid var(--gris);
+        }
+
+        .nav-bar-specify a:hover{
+                text-decoration: underline;
+                font-weight: bold;
+        }
+
+        .texte-header-intro{
+                padding-top: 8vw;
+        }
+
+        .texte-header-intro button{
+                margin: 2vw;
+                margin-top: 3em;
+        }
+
+        .bgc-specify button {
+                background: linear-gradient(45deg, rgba(255, 255, 255, 0.341), rgba(255, 66, 76, 0.459));
+                color: #fff;
+        }
+
+        .bgc-specify button:hover {
+                background: linear-gradient(45deg, rgba(191, 181, 181), rgba(255, 66, 75));
+        }
+
+        .logo-header {
+                flex-direction: column;
+                position: fixed;
+                top: 20vw;
+                right: 5%;
+                align-items: center;
+                z-index: 1;
+                width: 5vw;
+        }
+
+        .logo-fixe {
+                width: 3vw;
+        }
+
+/* main */
+        .texte-batman{
+                padding-top: 50px !important;
+        }
+
+        .image-batman-hover:hover{
+                transform: scale(1.15);
+                transition: .5s;
+        }
+
+        .d-flex{
+                display: flex !important;
+        }
+
+        .description{
+                position: absolute;
+                bottom: 1vw;
+                left: 1vw;
+                width: 90%;
+        }
+
+        .bord-raduis{
+                border-radius: 2em;
+        }
+
+        .masque-batman{
+                background-size: cover;
+        }
+
+        .height-specialise{
+                height: 600px;
+        }
+/* multimedia */
+        .votre-film{
+                grid-template-columns: 1fr 5fr;
+                gap: 15px;
+                width: 75%;
+                border-radius: 1em;
+                background-image: linear-gradient(150deg, #42433d,#081d29);
+        }
+
+/* formulaire */
+        .formulaire{
+                background-image: var(--blanc-bleu);
+        }
+
+        #userEmail{
+                border: 0;
+                border-bottom: 2px solid #fff;
+                background-color: transparent;
+        }
+
+        .selectNews div{
+                background-image: var(--blanc-bleu);
+        }
+
+        .selectNews button{
+                background: var(--blanc-rouge);
+                padding: 2px !important;
+        }
+
+        .selectNews button span{
+                background: linear-gradient(#759299,#5e8392);
+                display: block;
+        }
+
+        .selectNews button span:hover{
+                background: linear-gradient(150deg, #a2bcc1,#44738a);
+                display: block;
+        }
+
+        select {
+                background-color: transparent;
+                border: 0;
+                border-bottom: 2px solid #fff;
+        }
+
+        textarea{
+                border: 0;
+                border-bottom: 2px solid #fff;
+                background-color: transparent;
+        }
+
+        .confirm input{
+                background-image: var(--blanc-rouge);
+        }
+
+        .text-justify {
+                text-align: justify;
+                letter-spacing: 3px;
+        }
+
+/* citation */
+        .citation  {
+                grid-template-columns: 1fr 7fr 1fr;
+                padding-bottom: 5vw;
+        }
+        
+        .citation-grid-1 {
+                padding-top: 2vw;
+        }
+
+        .citation-grid-2 {
+                padding-top: 10vw;
+        }
+
+        .citation-grid-3 {
+                padding-top: 20vw;
+
+        }
+
+
+        .letter-space-3{
+                letter-spacing: 3px;
+        }
+
+/* footer */
+        .logo-footer{
+                text-align: center;
+        }
+
+        .logo-footer img{
+                margin: 1vw;
+        }

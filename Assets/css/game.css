@@ -1,0 +1,92 @@
+/* header */
+.batman-entete{
+        background-image: url(../Illustrations/Home/Bathome1.png);
+        background-size: cover;
+}
+
+header{
+        height: 700px;
+}
+
+nav{
+        align-items: center;
+        border-bottom: 2px solid var(--gris);
+}
+
+.nav-bar-specify a:hover{
+        text-decoration: underline;
+        font-weight: bold;
+}
+
+.texte-header-intro{
+        padding-top: 8vw;
+}
+
+.texte-header-intro button{
+        margin: 2vw;
+        margin-top: 3em;
+}
+
+.bgc-specify button {
+        background: linear-gradient(45deg, rgba(255, 255, 255, 0.341), rgba(255, 66, 76, 0.459));
+        color: #fff;
+}
+
+.bgc-specify button:hover {
+        background: linear-gradient(45deg, rgba(191, 181, 181), rgba(255, 66, 75));
+}
+
+.logo-header {
+        flex-direction: column;
+        position: fixed;
+        top: 20vw;
+        right: 5%;
+        align-items: center;
+        z-index: 1;
+        width: 5vw;
+}
+
+.logo-fixe {
+        width: 3vw;
+}
+
+/* main */
+.partie-vide{
+        margin: auto;
+        text-align: center;
+        padding: 50px 0 50px 0;
+        animation-duration: 5s;
+        animation-name: change-color;
+        animation-iteration-count: infinite;
+}
+
+@keyframes change-color {
+        0%{
+                color: #ce3434;
+        }
+        20%{
+                color: #ffffff;
+        }
+        40%{
+                color: #1dbbb3;
+        }
+        60%{
+                color: #ffffff;
+        }
+        80%{
+                color: #ce3434;
+        }
+        100%{
+                color: #1dbbb3;
+        }
+}
+
+
+/* footer */
+.logo-footer{
+        text-align: center;
+}
+
+.logo-footer img{
+        margin: 1vw;
+}

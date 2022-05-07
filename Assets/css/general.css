@@ -1,0 +1,189 @@
+:root {
+        /* couleur principal */
+        --jaune-fonce : #fff000;
+        --jaune-clair : #f8f184;
+        --bleu : #19587d;
+        --rouge : #b11313;
+        
+        --noir-fonce : #000000;
+        --noir-clair : #0d0e09;
+        --blanc : #ffffff;
+        --gris : #c4c4c4;
+
+        /* linear gradient */
+        --blanc-bleu : linear-gradient(#eddebf, #19587d);
+        --blanc-rouge : linear-gradient(45deg, #eddebf, #890008);
+
+        /* mesure */
+        --width-90 : 85%;
+}
+
+/* COULEUR */
+        /* couleur du contenu */
+                .cont-jaune-fonce{
+                        color: var(--jaune-fonce);
+                }
+                .cont-jaune-clair{
+                        color: var(--jaune-clair);
+                }
+                .cont-bleu{
+                        color: var(--bleu);
+                }
+                .cont-rouge{
+                        color: var(--rouge);
+                }
+
+
+                .cont-noir-fonce{
+                        color: var(--noir-fonce);
+                }
+                .cont-noir-clair{
+                        color: var(--noir-clair);
+                }
+                .cont-blanc{
+                        color: var(--blanc);
+                }
+                .cont-gris{
+                        color: var(--gris);
+                }
+
+
+        /* couleur du fond */
+                .bgc-jaune-fonce{
+                        background-color: var(--jaune-fonce);
+                }
+                .bgc-jaune-clair{
+                        background-color: var(--jaune-clair);
+                }
+                .bgc-bleu{
+                        background-color: var(--bleu);
+                }
+                .bgc-rouge{
+                        background-color: var(--rouge);
+                }
+
+
+                .bgc-noir-fonce{
+                        background-color: var(--noir-fonce);
+                }
+                .bgc-noir-clair{
+                        background-color: var(--noir-clair);
+                }
+                .bgc-blanc{
+                        background-color: var(--blanc);
+                }
+                .bgc-gris{
+                        background-color: var(--gris);
+                }
+
+
+                /*  */
+                .bgc-blanc-rouge{
+                        background: var(--blanc-rouge);
+                }
+                .bgc-blanc-bleu{
+                        background: var(--blanc-bleu);
+                }
+
+
+        /* bordure avec couleur */
+                .bord-jaune-fonce{
+                        border: 3px solid var(--jaune-fonce);
+                }
+                .bord-jaune-clair{
+                        border: 3px solid var(--jaune-clair);
+                }
+                .bord-bleu{
+                        border: 3px solid var(--bleu);
+                }
+                .bord-rouge{
+                        border: 3px solid var(--rouge);
+                }
+
+
+                .bord-noir-fonce{
+                        border: 3px solid var(--noir-fonce);
+                }
+                .bord-noir-clair{
+                        border: 3px solid var(--noir-clair);
+                }
+                .bord-blanc{
+                        border: 3px solid var(--blanc);
+                }
+                .bord-gris{
+                        border: 3px solid var(--gris);
+                }
+
+
+/* police (police) */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.font-batman-1{
+        font-family: 'Rajdhani', sans-serif;
+}
+
+.font-batman-2{
+        font-family: 'Space Grotesk', sans-serif;
+}
+
+.deplace {
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+}
+
+
+/*  */
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body{
+        background-color: var(--noir-fonce);
+        color: var(--blanc);
+}
+
+.space-between{
+        justify-content: space-between;
+}
+
+.bord-none {
+        border: none;
+}
+
+a {
+        text-decoration: none !important;
+}
+
+a:hover{
+        color: var(--blanc);
+        text-decoration: underline !important;
+}
+
+.width-specialise{
+        width: var(--width-90);
+}
+
+
+.bord-blanc-50{
+        border-left: 3px solid #ffffff88;
+        border-right: 3px solid #ffffff88;
+}
+
+
+/*  */
+.deplace{
+        animation-duration: 3s;
+        animation-name: deplacement-h1;
+}
+@keyframes deplacement-h1 {
+        0%{
+                transform: translate(-100px);
+                opacity: 0;
+        }
+        50%{
+                opacity: 30%;
+        }
+}
